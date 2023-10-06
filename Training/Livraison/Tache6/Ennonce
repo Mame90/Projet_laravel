@@ -1,0 +1,10 @@
+Projet 1:
+
+C'est une application php/MySQL utilisée par un magasinier afin qu'elle lui facilite les opérations suivantes:
+
+1) Enregistrer dans la base de données les produits stockés dans les magasins;
+
+2) Enregistrer dans la base de données les produits pris dans le stock;
+ 
+3) Vérifier la quantité des produits disponibles en stock.
+

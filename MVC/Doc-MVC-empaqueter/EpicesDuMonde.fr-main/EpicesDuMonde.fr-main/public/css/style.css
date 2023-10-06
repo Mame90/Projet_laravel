@@ -1,0 +1,182 @@
+/**************************************/
+/* Author : Michel Dufour            */
+/* Site   : www.michel-dufour.fr    */
+/***********************************/
+body {
+    margin: 0;
+    padding: 0;
+    background: #A1887F;
+}
+/**************************************/
+/*            GENERAL CSS            */
+/************************************/
+a {
+    transition: all ease-in-out .3s;
+    text-decoration: none;
+}
+.hauteur {
+    min-height: 95vh;
+}
+/**************************************/
+/*            NAVBAR CSS             */
+/************************************/
+.bg-custom {
+    background: #00bcd4;
+    border-bottom: 1px solid #02cce6;
+    box-shadow: 0 3px 3px rgb(0 0 0 / .3);
+}
+.navbar-brand {
+    font-size: 1.5rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255 / 0.7);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+.bg-custom .btn-outline-custom {
+    color: #fefefe;
+    border-color: #4DD0E1;
+    margin: 10px 5px;
+}
+.bg-custom .btn-outline-custom:hover {
+    color: #fff;
+    border-color: #fff;
+}
+.bg-custom .btn-outline-custom svg{
+    margin-top: -4px;
+}
+/**************************************/
+/*         SECTION-PAGE CSS          */
+/************************************/
+.header-page {
+    padding-top: 10rem;
+}
+.page-title {
+    font-size: 3.5rem;
+    font-weight: 300;
+    color: #bcaaa4;
+}
+.btn-outline-secondary svg {
+    margin-top: -5px;
+}
+/**************************************/
+/*             CARD CSS              */
+/************************************/
+.card{
+    position: relative;
+}
+.card-body{
+    background: #EFEBE9;
+}
+.card-title {
+    font-size: 18px;
+}
+.card-body .btn{
+    display: block;
+    margin: auto;
+}
+.card .btn-outline-secondary {
+    color: #999;
+    border-color: #999;
+}
+.card .btn-outline-secondary:hover {
+    color: #333;
+    border-color:#333;
+    background: #fff;
+}
+.card-price {
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    font-size: 15px;
+    color: #fefefe!important;
+    background: rgb(23 162 184 / .9);
+    padding: 5px 10px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 3px 2px 0px rgb(0 0 0 / 0.3);
+}
+/**************************************/
+/*            FOOTER CSS             */
+/************************************/
+.footer-page {
+    background: #333;
+    border-top: 5px solid #00bcd4;
+    box-shadow: 0 -3px 3px rgb(0 0 0 / .3);
+}
+.footer-page p {
+    color: #A1887F;
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 0;
+}
+/**************************************/
+/*             ADMIN CSS             */
+/************************************/
+.admin {
+    background: #e7d8d3;
+    padding: 20px 30px;
+    border-radius: 5px;
+    margin: 10px 0 50px;
+    border: 1px solid #fff;
+}
+.admin h1 {
+    color: #333;
+}
+.admin .btn-success {
+    margin-left: 10px!important;
+}
+.admin .table {
+    margin-top: 1rem;
+}
+.admin .bi-camera {
+    font-size: 1.5em;
+}
+.table thead th {
+    vertical-align: middle;
+}
+*.btn-sm {
+    line-height: 1.2;
+}
+*.btn-sm svg {
+    margin-top: -4px;
+}
+.form-help {
+    color: #e91e63;
+}
+.admin .form-priv {
+    color: #00bcd4;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    border-top: 3px solid #00bcd4;
+    background: linear-gradient(to top, #a1887f, #D7CCC8);
+    box-shadow: 0px -6px 4px #00000047;
+}
+.nav-pills a {
+    margin: 0 5px;
+    color: #fff;
+    border-top: 3px solid #bba9a3;
+    background: linear-gradient(to top, #a1887f, #bcaaa4);
+    box-shadow: 0px -1px 3px #00000047;
+}
+.nav-pills .nav-item .nav-link {
+    padding-top: 2px;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {    
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .header-page {
+        padding-top: 2rem;
+    }    
+}
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {    
+}
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {    
+}

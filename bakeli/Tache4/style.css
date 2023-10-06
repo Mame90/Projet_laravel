@@ -1,0 +1,56 @@
+.card-custom{
+    background-color: bisque;
+    width: 200px;
+    min-height: 500px;
+}
+#pricing{
+    height: 300px;
+    width: 100%;
+}
+.card-img-top{
+    height: 200px;
+}
+.card-hover:hover{
+    background-color:bisque;
+    padding:10px ;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card1-hover:hover{
+    background-color:gray;
+    padding:10px ;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 4px,0,8px,rgba(40,50, 255, 0.5);
+    
+}
+
+.btn:hover{
+    background-color: orange;
+    padding-left: 20px;
+    text-transform: uppercase;
+    box-shadow: 4px,0,8px,rgba(40,50, 255, 0.5);
+}
+
+.hov1{
+    color: #fff!important;
+    cursor: pointer;
+}
+/* ***************************style pour formulaire********************** */
+.body1 {
+    background-image: url('assets/code.jpeg');
+    background-size: contain;
+    background-position:left;
+    
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 50px auto;
+    max-width: 500px;
+    height: 760px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

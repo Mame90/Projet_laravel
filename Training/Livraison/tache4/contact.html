@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Clean Blog - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+          <!-- Navigation-->
+          <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html"><span style="background-color:#fff; color: black;">Vérificateur <br>de Moyenne</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Test</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('assets/img/contact-bg.jpg')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="page-heading">
+                              <!-- Main Content-->
+        <main class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="">
+                            <form id="contactForm" data-sb-form-api-token="API_TOKEN" method="post" action="traitement.php">
+                        <h4 id="contact" >Veillez s'il vous  remplire ce formulaire afin de connaitre votre statut globale: décision du jury, la mention obtenu ainsi que la moyenne</h4>
+                        <div class="my-5">
+                            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                                <div class="form-floating"> 
+                                    <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" name="nomcomplet" style="border-radius: 15px;opacity:0.6" />
+                                    <label for="name">Prenom et Nom</label> 
+                                <div class="invalid-feedback" data-sb-feedback="name:required">Entrez votre nom complet</div>
+                                </div> <br><br>
+                                 <div class="form-floating"> 
+                                    <input class="form-control" id="moyenne" type="number" placeholder="" data-sb-validations="required,moyenne" name="moyenne"  style="border-radius: 15px;opacity:0.6"/>
+                                    <label for="moyenne">Votre moyenne Bac SVP!</label>
+                                    <div class="invalid-feedback" data-sb-feedback="moyenne:required">Une moyenne est requise pour traiter cette operation</div>
+                                </div>  
+                                <br />
+                                <button style="border-radius: 15px;" class="btn btn-primary  text-uppercase " id="submitButton" type="submit" name="soumettre" value="soumettre">Soumettre</button>
+                                
+                                <butto style="border-radius: 15px;" class="btn btn-danger  text-uppercase " id="submitButton" type="reset" name="soumettre" value="soumettre">Annuler</button>
+                            </form>
+                            
+                        </div>
+                        <div class="small text-center fst-italic" style="font-size: 18px;color:black;font-weight:700">
+                            Copyright &copy; Mbaye Diop from Bakeli,Tout droit reserve.</div>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </main>
+      
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+    
+</html>

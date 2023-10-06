@@ -1,0 +1,15 @@
+{
+    "name": "d-pc/tache5.7-interfaces",
+    "autoload": {
+        "psr-4": {
+            "DPc\\Tache57Interfaces\\": "src/"
+            
+        }
+    },
+    "authors": [
+        {
+            "name": "Mbaye98"
+        }
+    ],
+    "require": {}
+}

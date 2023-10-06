@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(117, 130, 131,0.5);
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    
+}
+div > i{
+    border: 1px solid black;
+    padding: 9px;
+}
+
+.form-group label {
+    flex: 2 0 70px;
+    font-weight: bold;
+}
+.form-group .input-container {
+    flex: 1;
+    position: absolute;
+    max-width: 300px;
+    margin-left: 180px;
+    margin-top: 40px ;
+    margin-bottom: 20px;
+}
+.fa:not(.fa-paper-plane){
+    margin-left: -18px;
+    width: 14px;
+    height: 15px;
+    padding:5px,5px;
+    padding-top: 12px;
+    border-top-left-radius: 5px;border-bottom-left-radius: 5px;
+ border: 1px solid black;
+ background-color: rgba(117, 130, 131,0.5);
+ 
+}
+.fa-solid1{
+    position: absolute;
+    margin-top: -0px;
+    margin-left: 283px;
+    width: 15px;
+    height: 40px; border: -3px solid black;
+    padding: 15px 10px;
+    padding-top: 0px;
+    border-top-left-radius: 5px;border-bottom-left-radius: 5px;
+
+}
+.fa-solid{
+    position: absolute;
+    margin-top: 2px;
+    margin-left: -20px;
+    width: 14px;
+    height: 15px;
+    padding: 11px 10px;
+    border-top-left-radius: 5px;border-bottom-left-radius: 5px;
+
+}
+
+.form-group .input-container input,
+.form-group .input-container textarea ,select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-left: 30px; /* Espacement pour l'icône */
+    margin-left: 15px;
+   
+}
+
+/* Styles des icônes */
+.form-group .fa {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #888;
+}
+.button-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    margin-left:200px;
+    margin-top: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: orange;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-icon .fa {
+    margin-right: 8px;
+}
+
+.button-icon:hover {
+    background-color: #0056b3;
+}
+/* Ajuster la position de l'icône pour les grands icônes */
+.form-group .fa-lg {
+    top: 50%;
+    transform: translateY(-50%);
+}
+form > div{
+    display: inline-block;
+    margin: 40px auto;
+    max-width: 700px;
+    margin-left: 10px;
+    
+}
+label{
+    padding-top: 19px;
+    
+    
+}
+.fa .fa-paper-plane{
+    border: none;
+    background-color: 0;
+}
+.pa{
+    margin-left: 80px;
+}
